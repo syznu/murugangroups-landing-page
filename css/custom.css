@@ -1,0 +1,26 @@
+.header-social-icons {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    height: 100%; /* Ensure vertical centering */
+}
+
+.header-social-icons a {
+    margin: 0 6px;
+    color: #272d33;
+    transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+    height: 36px; /* Match button height for better alignment */
+}
+
+.header-social-icons a:hover {
+    color: #ffb600;
+}
+
+.social-icon {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
